@@ -14,6 +14,7 @@
 		9340AFE92163BB96008CC277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9340AFE72163BB96008CC277 /* LaunchScreen.storyboard */; };
 		9340AFF42163BB96008CC277 /* CrowdAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340AFF32163BB96008CC277 /* CrowdAITests.swift */; };
 		9340AFFF2163BB96008CC277 /* CrowdAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340AFFE2163BB96008CC277 /* CrowdAIUITests.swift */; };
+		9340B00D2163C076008CC277 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340B00C2163C076008CC277 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9340AFFA2163BB96008CC277 /* CrowdAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9340AFFE2163BB96008CC277 /* CrowdAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdAIUITests.swift; sourceTree = "<group>"; };
 		9340B0002163BB97008CC277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9340B00C2163C076008CC277 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9340AFE52163BB96008CC277 /* Assets.xcassets */,
 				9340AFE72163BB96008CC277 /* LaunchScreen.storyboard */,
 				9340AFEA2163BB96008CC277 /* Info.plist */,
+				9340B00C2163C076008CC277 /* Utilities.swift */,
 			);
 			path = CrowdAI;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9340B00D2163C076008CC277 /* Utilities.swift in Sources */,
 				9340AFE12163BB95008CC277 /* ViewController.swift in Sources */,
 				9340AFDF2163BB95008CC277 /* AppDelegate.swift in Sources */,
 			);
